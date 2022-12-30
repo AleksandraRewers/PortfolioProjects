@@ -1,10 +1,8 @@
 use housing;
 /* data cleaning 
 
--- Standarise Format */
+/* Standarise Format */
 
-Select SaleDate, convert(Date, SaleDate)
-From nashville;
 
 /* Property Address */
 
